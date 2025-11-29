@@ -35,3 +35,132 @@ body{
     margin: 0 auto;
     position: relative;
 }
+/* ====================== HEADER ====================== */
+header .menu{
+    display: none;
+}
+nav ul li{
+    float: right;
+    margin-top: 20px;
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+nav ul li a:hover{
+    color: var(--color-blue);
+    border-bottom: 1px solid var(--color-blue);
+    padding-bottom: 3px;
+}
+.a{
+    color: #fff;
+    text-decoration: none;
+}
+button{
+    font-family: "b-yekan";
+}
+#btn-lang{
+    padding: 6px 18px;
+    background-color: var(--color-blue);
+    border-radius: 30px;
+    box-shadow: 0px 2px 4px 0px #000;
+}
+#btn-lang:hover{
+    color: #fff;
+    border-bottom: none;
+    background-color: #0063ee;
+}
+#btn-lang .fa-solid{
+    margin-left: 6px;
+}
+.logo{
+    float: left;
+    margin-top: 20px;
+    /* margin-left: ; */
+
+}
+.logo img{
+    width: 177px;
+    height: 58px;
+    float: left;
+    
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../img/IMG_20240929_092733_553.jpg) no-repeat top center;
+    background-size: cover;
+}
+.pattern-header{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+}
+.content-header{
+    float: right;
+    margin-top: 250px;
+}
+.content-header h1{
+    color: #fff;
+}
+.content-header h2{
+    color: var(--color-blue);
+    margin: 10px 0 20px 0;
+}
+.content-header p{
+    color: #ccc;
+    width: 45%;
+}
+.content-header .btn-more{
+    margin-top: 25px;
+    background-color: var(--color-blue);
+    padding: 0px 0px 0px 15px ;
+    border: none;
+    color: #fff;
+}
+.content-header .btn-more:hover{
+    background-color: #0063ee;
+}
+.btn-more .fa-solid{
+    background-color: #fff;
+    color: var(--color-blue);
+    padding: 10px;
+    margin-left: 15px;
+}
+.main-mouse{
+    float: right;
+    width: 100%;
+    text-align: center;
+    margin-top: -20.5px;
+    position: relative;
+    animation: moveIcon ease-in-out 1s 3;
+}
+.main-mouse i{
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 11px 8px;
+    border-radius: 43%;
+    background-color: var(--color-blue);
+    box-shadow: 0px 2px 4px 0px #000;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes moveIcon{
+    0%{
+        margin-top: -61.5px;
+    }
+    50%{
+        margin-top: -20.5px;
+    }
+    100%{
+        margin-top: -61.5px;
+    }
+}
