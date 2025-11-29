@@ -127,6 +127,7 @@ header{
     padding: 10px;
     margin-left: 15px;
 }
+/* ====================== CLOUD ====================== */
 .main-mouse{
     float: right;
     width: 100%;
@@ -143,7 +144,29 @@ header{
     background-color: var(--color-blue);
     box-shadow: 0px 2px 4px 0px #000;
 }
-
+#cloud{
+    float: right;
+    background: url(../img/cloud.png) no-repeat top center;
+    width: 100%;
+    height: 410px;
+}
+.main-cloud{
+    width: 100%;
+    height: 410px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.main-cloud p{
+    width: 50%;
+    text-align: center;
+    color: var(--color-text);
+}
+.main-cloud p:nth-child(2){
+    margin-top: 30px;
+}
 
 
 
