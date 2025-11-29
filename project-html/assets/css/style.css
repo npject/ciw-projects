@@ -167,6 +167,63 @@ header{
 .main-cloud p:nth-child(2){
     margin-top: 30px;
 }
+/* ====================== SERVICES ====================== */
+#services{
+    float: right;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.main-services{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.main-services hr{
+    position: absolute;
+    width: 70%;
+    top: 60px;
+    right: 15%;
+    z-index: -1;
+}
+.main-services .item-services{
+    width: 25%;
+    text-align: center;
+    
+}
+.main-services .item-services .circle{
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    border-radius: 100%;
+    background-color: var(--color-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-services .item-services .circle .circle-inner{
+    width: 108px;
+    height: 108px;
+    border: 4px solid #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-services .item-services .circle i{
+    color: #fff;
+    font-size: 2rem;
+}
+.main-services .item-services h3{
+    margin-top: 30px;
+    color: var(--color-text);
+}
+.main-services .item-services p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: var(--color-text);
+}
+
 
 
 
