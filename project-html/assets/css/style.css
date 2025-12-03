@@ -513,3 +513,277 @@ footer .bottom-footer p{
         margin-top: -61.5px;
     }
 }
+/* ====================== RESPONSIVE STYLES ====================== */
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        width: 100%;
+        padding: 0 12px;
+    }
+    nav{
+        display: none;
+    }
+    header .menu{
+        display: block;
+        float: right;
+        width: 30px;
+        height: auto;
+        margin-top: 25px;
+    }
+    header .menu .menuu{
+        width: 30px;
+        height: 4px;
+        border-radius: 20%;
+        background-color: #fff;
+        margin: 6px;
+    }
+    header .menu:hover .menuu{
+        background-color: var(--color-blue);
+    }
+    .content-header p,
+    .main-cloud p,
+    .main-services .item-services p,
+    #project .title-project p,
+    #slider .title-slider p,
+    #background-video .content-video p{
+        width: 100%;
+    }
+    .main-mouse{
+        display: none;
+    }
+    .main-cloud{
+        position: relative;
+    }
+    #services{
+        margin-bottom: 0;
+    }
+    .main-services{
+        flex-wrap: wrap;
+    }
+    .main-services hr{
+        display: none;
+    }
+    .main-services .item-services{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .main-services .item-services h3{
+        margin-top: 25px;
+    }
+    #services,
+    #project,
+    #slider{
+        margin-top: 50px;
+    }
+    #project .main-project .item-project{
+        width: 100%;
+        text-align: center;
+    }
+    #project .item-project img{
+        float: initial;
+    }
+    #project .item-project .content-project{
+        width: 100%;
+        float: initial;
+        display: flex;
+        flex-direction: column;
+    }
+    #project .item-project .btn-project-main{
+        display: flex;
+        justify-content: center;
+    }
+    #btn-project{
+        margin-top: 20px;
+    }
+    #project{
+        margin-bottom: 90px;
+    }
+    #background-video{
+        height: 50vh;
+    }
+    .pattern-video{
+        height: 50vh;
+    }
+    #slider{
+        margin-bottom: 40px;
+    }
+    #slider .main-slider{
+        flex-wrap: wrap;
+    }
+    #slider .main-slider i{
+        display: none;
+    }
+    #slider .main-slider .slide{
+        width: 100%;
+        margin-bottom: 75px;
+    }
+    footer{
+        height: auto;
+    }
+    footer .main-footer{
+        flex-wrap: wrap;
+        height: auto;
+        padding: 12px;
+    }
+    footer .main-footer .item-footer{
+        width: 45%;
+        margin-bottom: 15px;
+    }
+    footer .item-footer img{
+        position: absolute;
+        left: 5px;
+    }
+    footer .main-footer #item-footer-4 p{
+        margin-top: 52px;
+    }
+
+}
+
+@media (min-width:481px) and (max-width:760px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    nav{
+        display: none;
+    }
+    header .menu{
+        display: block;
+        float: right;
+        width: 30px;
+        height: auto;
+        margin-top: 25px;
+    }
+    header .menu .menuu{
+        width: 30px;
+        height: 4px;
+        border-radius: 20%;
+        background-color: #fff;
+        margin: 6px;
+    }
+    header .menu:hover .menuu{
+        background-color: var(--color-blue);
+    }
+    .content-header p,
+    .main-cloud p,
+    .main-services .item-services p,
+    #project .title-project p,
+    #slider .title-slider p,
+    #background-video .content-video p{
+        width: 100%;
+    }
+    .main-mouse{
+        display: none;
+    }
+    .main-cloud{
+        position: relative;
+    }
+    #slider .main-slider .slide{
+        width: 45%;
+        padding: 15px;
+        margin: 0 10px;
+    }
+    #slider .main-slider i{
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    } 
+    footer .main-footer{
+        padding: 12px;
+        height: 300px;
+        
+    }
+    footer .main-footer .item-footer{
+        margin-bottom: 15px;
+        height: 300px;
+        margin-top: 40px;
+    }
+    footer .main-footer #item-footer-2,
+    footer .main-footer #item-footer-3{
+        width: 25%;
+    }
+    footer .item-footer img{
+        position: absolute;
+        left: 10px;
+        bottom: 5px;
+    }
+    footer .main-footer #item-footer-4 p{
+        margin-top: 52px;
+    }
+
+}
+
+@media (min-width:761px) and (max-width:1024px){
+    .container{
+        width: 100%;
+        padding: 0 30px;
+    }
+    nav{
+        display: none;
+    }
+    header .menu{
+        display: block;
+        float: right;
+        width: 30px;
+        height: auto;
+        margin-top: 25px;
+    }
+    header .menu .menuu{
+        width: 30px;
+        height: 4px;
+        border-radius: 20%;
+        background-color: #fff;
+        margin: 6px;
+    }
+    header .menu:hover .menuu{
+        background-color: var(--color-blue);
+    }
+    header .content-header{
+        width: 90%;
+        height: 100vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 0;
+    } 
+    .content-header p,
+    .main-cloud p,
+    .main-services .item-services p,
+    #project .title-project p,
+    #slider .title-slider p,
+    #background-video .content-video p{
+        width: 100%;
+    }
+    .main-mouse{
+        display: none;
+    }
+    .main-cloud{
+        position: relative;
+    }
+    #project .main-project .item-project{
+        width: 45%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #project .item-project .content-project{
+        width: 100%;
+    }
+    #project .item-project .btn-project-main{
+        display: flex;
+        justify-content: center;
+    }
+    #slider .main-slider .slide{
+        width: 40%;
+    }
+    footer .item-footer img{
+        position: absolute;
+        left: 30px;
+    }
+    footer .main-footer #item-footer-4 p{
+        margin-top: 52px;
+    }
+
+}
