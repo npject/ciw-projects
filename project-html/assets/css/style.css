@@ -414,6 +414,83 @@ header{
 #slider .main-slider i:active{
     background-color: var(--color-blue);
 }
+/* ====================== FOOTER ====================== */
+footer{
+    float: right;
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-blue);
+    position: relative;
+}
+footer .fa-arrow-up{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+    color: var(--color-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -20px;
+    right: 80px;
+}
+footer ul li{
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer .main-footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .main-footer .item-footer{
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+footer .main-footer p{
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+footer .item-footer img{
+    width: 177px;
+    height: 36px;
+    margin-bottom: 15px;
+}
+footer .icon-footer a{
+    margin-left: 8px;
+    font-size: 14px;
+}
+footer .bottom-footer{
+    float: right;
+    width: 100%;
+    height: 30px;
+    background-color: var(--color-blue);
+    border-top: 1px solid #ffffff63;
+    display: flex;
+    align-items: center;
+}
+footer .bottom-footer p{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 100;
+}
 
 
 
