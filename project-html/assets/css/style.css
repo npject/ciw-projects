@@ -223,6 +223,112 @@ header{
     font-size: 14px;
     color: var(--color-text);
 }
+/* ====================== PROJECT ====================== */
+#project,
+#slider{
+    width: 100%;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+#project hr{
+    float: inline-start;
+}
+#project .title-project,
+#slider .title-slider{
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+#project .title-project h2,
+#slider .title-slider h2{
+    color: var(--color-text);
+}
+#project .title-project p,
+#slider .title-slider p{
+    width: 50%;
+    margin: 10px auto;
+    color: var(--color-text);
+}
+#project .main-project{
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#project .main-project .item-project{
+    width: 490px;
+    background-color: #f6f6f6;
+    margin-bottom: 30px;
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid #f6f6f6;
+    transition: all ease-in-out .4s;
+}
+#project .item-project img{
+   width: 201px;
+   height: 250px;
+   float: right;
+   border-radius: 8px; 
+}
+#project .item-project .content-project{
+    float: left;
+    width: 230px;
+    padding: 10px;
+}
+#project .item-project h4{
+    color: #5c5c5c;
+}
+#project .item-project p{
+    float: left;
+    color: #7a7a7a;
+    font-size: 14px;
+}
+#project .item-project .btn-project{
+    margin-top: 20px;
+    padding: 5px 12px;
+    border-radius: 15px;
+    background-color: #f6f6f6;
+    color: #5c5c5c;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    float: right;
+    font-size: 12px;
+    transition: all ease-in-out .4s;
+}
+#project .main-project .item-project:hover{
+    background-color: #fff;
+    border-color: var(--color-blue);
+    transition: all ease-in-out .4s;
+}
+#project .main-project .item-project:hover .btn-project{
+    background-color: var(--color-blue);
+    border-color: var(--color-blue);
+    color: #fff;
+    transition: all ease-in-out .4s;
+}
+#project .item-project .btn-project-main{
+    width: 100%;
+}
+#btn-project{
+    float: right;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+#btn-project a{
+    padding: 7px 20px;
+    background-color: var(--color-blue);
+    border-radius: 21px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0px 2px 4px 0px #000;
+}
+#btn-project a:hover{
+    background-color: #0063ee;
+}
 
 
 
