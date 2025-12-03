@@ -329,6 +329,45 @@ header{
 #btn-project a:hover{
     background-color: #0063ee;
 }
+/* ====================== VIDEO ====================== */
+#background-video{
+    background: url(../img/background-video.jpg) no-repeat top center;
+    float: right;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.pattern-video{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+#background-video .content-video{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#background-video .content-video i{
+    color: #fff;
+    font-size: 5rem;
+}
+#background-video .content-video h2{
+    color: var(--color-blue);
+    margin-top: 15px;
+}
+#background-video .content-video p{
+    color: #fff;
+    margin-top: 10px;
+    width: 50%;
+    font-size: 14px;
+}
+
 
 
 
