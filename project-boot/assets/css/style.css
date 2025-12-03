@@ -25,3 +25,20 @@ body{
     direction: rtl;
     background-color: #19191B !important;
 }
+/* ====================== NAV ====================== */
+.navbar-nav{
+    padding-right: initial !important;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--color-purple) !important;
+}
+.navbar .navbar-nav .nav-link{
+    color: #fff;
+}
+.nav-link:focus, .nav-link:hover{
+    color: var(--color-purple) !important;
+    opacity: 1 !important;
+}
+.offcanvas{
+    background-color: #1d1d20 !important;
+}
