@@ -109,3 +109,93 @@ footer #el-circle-3{
 footer .navbar>.container{
     display: initial;
 }
+#shadow-1{
+    transform: rotateY(180deg);
+    max-width: 100%;
+}
+#shadow-2{
+    transform: rotateY(180deg);
+}
+#shadow-3{
+    top: 30rem;
+}
+#shadow-5{
+    top: 70rem;
+    max-width: 100%;
+}
+#slide #el-circle-2{
+    left: 12rem;
+}
+#el-add,
+#el-add-2,
+#el-add-3,
+#el-add-4{
+    animation: move-add ease-in-out 20s infinite;
+    transition: all ease-in-out 5s;
+}
+#el-play,
+#el-play-2{
+    animation: move-play ease-in-out 1s infinite;
+    transition: all ease-in-out 1s;
+} 
+#el-vector{
+    animation: move-vector ease-in-out 4s infinite;
+} 
+#el-circle,
+#el-circle-2,
+#el-circle-3{
+    animation: move-circle ease-in-out 4s infinite;
+    transition: all ease-in-out 1s;
+}  
+#services,
+#slide{
+    margin-top: 100px !important;
+}
+
+
+
+/* ====================== ANIMATIONS ====================== */
+@keyframes move-add {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes move-play {
+    0%{
+        opacity: .7;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: .7;
+    }
+}
+@keyframes move-vector {
+    0%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}
+@keyframes move-circle {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
