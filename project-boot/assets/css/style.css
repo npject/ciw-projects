@@ -64,3 +64,14 @@ header #el-play{
     bottom: 3rem;
     transform: translateX(50%);
 }
+/* ====================== VIDEO ====================== */
+#video #img-video{
+    height: 670px;
+}
+#video #img-video i{
+    background-color: var(--color-purple);
+    font-size: 3rem;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+}
