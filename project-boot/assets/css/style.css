@@ -75,3 +75,10 @@ header #el-play{
     height: 100px;
     padding-left: 10px;
 }
+/* ====================== SERVICES ====================== */
+#services #el-play-2{
+    left: 5rem;
+}
+#services #el-add-2{
+    top: 5rem;
+}
