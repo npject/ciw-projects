@@ -90,3 +90,22 @@ header #el-play{
 .carousel-control-prev{
     color: var(--color-purple) !important;
 }
+/* ====================== FOOTER ====================== */
+footer .container-fluid{
+    background: rgba(30, 30, 32, 0.5);
+}
+footer #main-footer{
+    height: 506px;
+}
+footer #main-footer .btn-custom:hover{
+    background-color: var(--color-hover) !important;
+}
+footer #el-add-4{
+    top: 5rem;
+}
+footer #el-circle-3{
+    bottom: 5rem;
+}
+footer .navbar>.container{
+    display: initial;
+}
