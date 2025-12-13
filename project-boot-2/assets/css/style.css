@@ -39,3 +39,13 @@ header #content-header{
     width: 100px;
     border-top: 1px solid var(--color-blue);
 }
+/* ====================== SERVICES ====================== */
+#services .row .col-md-4:nth-child(2) div{
+    background-color: #6d9dbd;
+}
+#services .row .col-md-4:nth-child(3) div{
+    background-color: #c0392b;
+}
+#services .row .col-md-4:nth-child(4) div{
+    background-color: #3498db;
+}
