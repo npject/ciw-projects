@@ -27,3 +27,15 @@ body{
 .container-fluid .row{
     max-width: 100%;
 }
+/* ====================== HEADER ====================== */
+header{
+    background: url(../img/Container.jpg) no-repeat top center;
+    background-size: cover;
+}
+header #content-header{
+    height: 86% !important;
+}
+.hr-custom{
+    width: 100px;
+    border-top: 1px solid var(--color-blue);
+}
