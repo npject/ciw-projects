@@ -55,3 +55,25 @@ header #content-header{
     height: 183px;
     background-color: #35c2f8;
 }
+/* ====================== AWESOME TEAM ====================== */
+#other-expertise,
+#awesome-team{
+    background-color: #f7f7f7;
+}
+#awesome-team .team{
+    width: 235px;
+    height: 235px;
+}
+#awesome-team .a-custom{
+    width: 30px;
+    height: 30px;
+}
+#awesome-team .social-media .a-custom.pinterest:hover{
+    background-color: #cb2028 !important;
+}
+#awesome-team .social-media .a-custom.facebook:hover{
+    background-color: #3b5998 !important;
+}
+#awesome-team .social-media .a-custom.twitter:hover{
+    background-color: #00aced !important;
+}
