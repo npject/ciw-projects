@@ -77,3 +77,26 @@ header #content-header{
 #awesome-team .social-media .a-custom.twitter:hover{
     background-color: #00aced !important;
 }
+/* ====================== FOOTER ====================== */
+footer{
+    background-color: #111111;
+}
+footer textarea{
+    height: 150px;
+}
+footer form input::placeholder,
+footer form textarea::placeholder{
+    color: #b6b6b6 !important;
+}
+footer form input[type="submit"]{
+    background-color: #35c2f8;
+}
+footer form input[type="submit"]:hover{
+    background-color: #30afe0;
+}
+footer .border-footer{
+    border-top: 1px solid #f6f6f6bc;
+}
+.offcanvas{
+    background-color: #f7f7f7 !important;
+}
