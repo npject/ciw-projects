@@ -49,3 +49,9 @@ header #content-header{
 #services .row .col-md-4:nth-child(4) div{
     background-color: #3498db;
 }
+/* ====================== ABOUT US ====================== */
+#about-us .row .offset-lg-6 #our-story{
+    width: 183px;
+    height: 183px;
+    background-color: #35c2f8;
+}
