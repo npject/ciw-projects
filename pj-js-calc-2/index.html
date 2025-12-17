@@ -9,7 +9,37 @@
     <link href="assets/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-
+    <section id="main">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 mx-auto p-4 rounded-3" id="calculator">
+              <input type="text" class="form-control text-white fs-5 fw-lighter" id="display" readonly>
+              <div class="grid-container mt-4">
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="clean()">AC</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(1)">~</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="">%</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc('/')">/</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(7)">7</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(8)">8</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(9)">9</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc('*')">*</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(4)">4</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(5)">5</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(6)">6</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc('-')">-</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(1)">1</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(2)">2</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(3)">3</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc('+')">+</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(1)">~</div>
+                <div class="grid-item text-white rounded-3 fs-5 fw-lighter d-flex justify-content-center align-items-center" onclick="calc(0)">0</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="calc('.')">.</div>
+                <div class="grid-item text-white rounded-3 fs-4 fw-lighter d-flex justify-content-center align-items-center" onclick="oprate()">=</div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
     
     <script src="assets/js/bootstrap.bundle.min.js"></script>
