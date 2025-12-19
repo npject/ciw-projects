@@ -1,0 +1,32 @@
+@font-face{
+    src: url(../fonts/iranyekanwebregular.eot) format('eot'),
+    url(../fonts/iranyekanwebregular.ttf) format('ttf'),
+    url(../fonts/iranyekanwebregular.woff) format('woff');
+    font-family: 'b-yekan';
+}
+@font-face{
+    src: url(../fonts/iranyekanwebbold.eot) format('eot'),
+    url(../fonts/iranyekanwebbold.ttf) format('ttf'),
+    url(../fonts/iranyekanwebbold.woff) format('woff');
+    font-family: 'b-yekan-bold';
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-img-top{
+    height: 200px;
+}
+.img-single{
+    height: 400px !important;
+}
+/* .card{
+    height: 500px !important;
+} */
+#countAddTo:hover{
+    color: var(--bs-btn-color);
+    background-color: var(--bs-btn-bg);
+    border-color: var(--bs-btn-border-color);
+}
+.timer{
+    font-family: 'b-yekan';
+}
