@@ -223,3 +223,23 @@ function getCountCart(){
     document.querySelector('#count-cart').innerText = count;
 }
 getCountCart();
+/* ===========================
+   Product Quantity Control
+=========================== */
+function countAdd(key){
+    let countAddTo = document.querySelector('#countAddTo').innerText;
+    switch (key) {
+        case 'inc':
+            document.querySelector('#countAddTo').innerText = +countAddTo + 1;
+            //document.querySelector('#btn-dec').classList.remove('disabled');
+            document.querySelector('#btn-dec').removeAttribute('disabled');
+            break;
+        case 'dec':
+            document.querySelector('#countAddTo').innerText = +countAddTo - 1;
+            if(countAddTo == 2){
+                //document.querySelector('#btn-dec').classList.add('disabled');
+                document.querySelector('#btn-dec').setAttribute('disabled','');
+            }
+            break;
+    }
+}
