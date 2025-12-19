@@ -243,3 +243,10 @@ function countAdd(key){
             break;
     }
 }
+/* ===========================
+   Live Clock
+=========================== */
+setInterval(()=>{
+    let time = new Date().toLocaleTimeString('fa');
+    document.querySelector('.timer').innerText = time;
+},1000)
