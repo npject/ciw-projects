@@ -195,3 +195,31 @@ function removeItemCart(ev,idCartItem){
         `
     }
 }
+/* ===========================
+   Add To Cart & Counter
+=========================== */
+function addToCart(){
+    debugger
+    const toast = document.querySelector('#toastAdd');
+    const toastContent = document.querySelector('#toastAdd .toast-body');
+    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toast);
+    let dataCart = localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')) : [];
+    let findData = dataCart.find(item => item.id == dataSingle.id);
+    if(findData){
+        toastContent.innerText = `item is exist...`
+        toast.classList.remove('text-bg-success');
+        toast.classList.add('text-bg-warning');
+        toastBootstrap.show();    
+        return;
+    }
+    dataCart.push(dataSingle);
+    localStorage.setItem('cartItems',JSON.stringify(dataCart));
+    getCountCart();
+    toastContent.innerText = `item is added to cart.`
+    toastBootstrap.show();
+}
+function getCountCart(){
+    let count = localStorage.getItem('cartItems') ? JSON.parse(localStorage.getItem('cartItems')).length : 0;
+    document.querySelector('#count-cart').innerText = count;
+}
+getCountCart();
