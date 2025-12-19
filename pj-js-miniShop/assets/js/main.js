@@ -153,3 +153,45 @@ async function getDataSingle() {
     }
 
 }
+/* ===========================
+   Cart Items Management
+=========================== */
+function getDataCart(){
+    let dataCart = JSON.parse(localStorage.getItem('cartItems'));
+    if(dataCart.length == 0){
+        document.querySelector('.res-cart').innerHTML = `
+        <div class="alert alert-danger">Cart is empty !</div>
+        `
+    }else{
+        dataCart.forEach(item => {
+            document.querySelector('.res-cart').innerHTML += `
+            <div class="col-lg-3 my-2">
+                <div class="card">
+                    <a href="single.html?id=${item.id}" target="_blank">
+                        <img src="${item.image}" class="card-img-top object-fit-contain"></img>
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title text-truncate">${item.title}</h5>
+                        <p class="card-text">${item.category}</p>        
+                        <p class="card-text">${item.price}</p>
+                        <i class="fa-solid fa-trash fs-4 text-danger" onclick="removeItemCart(event,${item.id})"></i>        
+                    </div>
+                </div> 
+            </div>
+            `
+        })
+    
+    }
+}
+function removeItemCart(ev,idCartItem){
+    ev.currentTarget.parentElement.parentElement.parentElement.remove();
+    let dataCart = JSON.parse(localStorage.getItem('cartItems'));
+    let newDataCart = dataCart.filter(item => item.id != idCartItem);
+    localStorage.setItem('cartItems',JSON.stringify(newDataCart));
+    getCountCart();
+    if(newDataCart.length == 0){
+        document.querySelector('.res-cart').innerHTML = `
+        <div class="alert alert-danger">Cart is empty !</div>
+        `
+    }
+}
