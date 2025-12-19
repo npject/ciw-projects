@@ -60,3 +60,96 @@ async function getData() {
         }
     }
 }
+/* ===========================
+   Single Product Logic
+=========================== */
+var dataSingle;
+async function getDataSingle() {
+    let params = new URLSearchParams(document.location.search);
+    let idProduct = params.get('id');
+    var loading = true;
+    document.querySelector('.res-single').innerHTML += `
+        <div class="col-lg-12 my-2 skeleton-loading">
+            <div class="card">
+                <div class="row">
+                    <div class="col-md-4 text-center placeholder-glow">
+                        <img src="" class="img-fluid object-fit-contain rounded-start img-single placeholder w-100"></img>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body text-body-secondary h-100 d-flex flex-column justify-content-center placeholder-wave">
+                            <h5 class="card-title text-truncate text-black placeholder col-2"></h5>
+                            <p class="card-text"><span class="text-body-tertiary">category: </span><span class="placeholder col-1"></span></p>        
+                            <p class="card-text"><span class="text-body-tertiary">description: </span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-5"></span>
+                                <span class="placeholder col-4"></span>
+                                <span class="placeholder col-5"></span>
+                            </p>        
+                            <p class="card-text"><span class="text-body-tertiary">price: </span><span class="placeholder col-1"></span></p>        
+                            <p class="card-text"><span class="text-body-tertiary">rate: </span><span class="placeholder col-1"></span></p>        
+                            <p class="card-text"><span class="text-body-tertiary">count: </span><span class="placeholder col-1"></span></p>
+                            <div class="btn-toolbar">
+                                <div class="btn-group me-2">
+                                    <button class="btn btn-secondary disabled">-</button>
+                                    <button class="btn btn-secondary disabled">1</button>
+                                    <button class="btn btn-secondary disabled">+</button>
+                                </div>
+                                <div class="btn-group">
+                                    <button class="btn btn-success disabled">add to cart</button>
+                                </div>
+                            </div>        
+                        </div>
+                    </div>
+                </div>  
+            </div> 
+        </div>
+        `
+    try {
+        let fetchData = await fetch(`https://fakestoreapi.com/products/${idProduct}`, {
+            method: "GET"
+        });
+        let data = await fetchData.json();
+                dataSingle = data;
+                loading = false;
+                document.querySelector('.skeleton-loading').remove();
+                document.querySelector('title').innerText = `${data.title}`
+                document.querySelector('.res-single').innerHTML += `
+                    <div class="col-lg-12 my-2">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-4 text-center">
+                                    <img src="${data.image}" class="img-fluid object-fit-contain rounded-start img-single"></img>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body text-body-secondary h-100 d-flex flex-column justify-content-center">
+                                        <h5 class="card-title text-black">${data.title}</h5>
+                                        <p class="card-text"><span class="text-body-tertiary">category: </span>${data.category}</p>        
+                                        <p class="card-text"><span class="text-body-tertiary">description: </span>${data.description}</p>        
+                                        <p class="card-text"><span class="text-body-tertiary">price: </span>${data.price}</p>        
+                                        <p class="card-text"><span class="text-body-tertiary">rate: </span>${data.rating.rate}</p>        
+                                        <p class="card-text"><span class="text-body-tertiary">count: </span>${data.rating.count}</p>
+                                        <div class="btn-toolbar">
+                                            <div class="btn-group me-2">
+                                                <button class="btn btn-secondary" disabled id="btn-dec" onclick="countAdd('dec')">-</button>
+                                                <button class="btn btn-secondary" id="countAddTo">1</button>
+                                                <button class="btn btn-secondary" onclick="countAdd('inc')">+</button>
+                                            </div>
+                                            <div class="btn-group">
+                                                <button class="btn btn-success" onclick="addToCart()">add to cart</button>
+                                            </div>
+                                        </div>        
+                                    </div>
+                                </div>
+                            </div>  
+                        </div> 
+                    </div>
+                    `
+    } catch (error) {
+        console.log('error:::::', error);
+        loading = false;
+        if (!loading) {
+            document.querySelector('.skeleton-loading').remove();
+        }
+    }
+
+}
