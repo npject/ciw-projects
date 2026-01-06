@@ -1,0 +1,166 @@
+<?php include("header.php"); ?>
+      <!-- start header -->
+    <header class="text-light mb-lg-5 mb-4 position-relative" data-bs-theme="dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-4 d-flex flex-column justify-content-center align-items-start">
+            <h1>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h1>
+            <p class="opacity-75 my-4">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+              و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه
+              و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی
+              تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد،
+            </p>
+            <a href="#" class="btn btn-custom py-2 px-3">
+              خدمات ما
+              <i class="fa-solid fa-arrow-left pe-2"></i>
+            </a>
+          </div>
+          <div class="col-lg-6 mb-4 position-relative">
+            <img src="assets/img/header.user.png" class="img-fluid w-100">
+            <img src="assets/img/circle.png" class="position-absolute start-0" id="el-circle">
+            <img src="assets/img/Vector 13.png" class="position-absolute end-0" id="el-vector">
+            <img src="assets/img/add.png" class="position-absolute start-0" id="el-add">
+            <img src="assets/img/play.png" class="position-absolute end-0" id="el-play">
+          </div>
+        </div>
+      </div>
+    </header>
+    <img src="assets/img/Rectangle-1.png" class="position-absolute top-0 end-0 z-n1" id="shadow-1">
+    <img src="assets/img/Rectangle-2.png" class="position-absolute top-0 start-0 z-n1" id="shadow-2">
+  </div>
+  <div class="container-fluid position-relative">
+    <!-- start section video -->
+    <section class="text-light my-lg-5 my-3" id="video" data-bs-theme="dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 my-5">
+            <div class="row">
+              <h2 class="col-lg-6">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</h2>
+              <p class="col-lg-6 opacity-75">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ،
+                و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه
+                و مجله در ستون و سطرآنچنان که لازم است،
+              </p>
+            </div>
+
+          </div>
+          <div class="col-lg-12 d-flex justify-content-center align-items-center position-relative" id="img-video">
+            <img src="assets/img/image 4.jpg" class="img-fluid">
+            <i
+              class="fa-solid fa-play position-absolute rounded-circle d-flex justify-content-center align-items-center"></i>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- start section services -->
+    <section class="text-light my-lg-5 my-4 position-relative" id="services" data-bs-theme="dark">
+      <div class="container position-relative">
+        <img src="assets/img/play.png" class="position-absolute top-0" id="el-play-2">
+        <img src="assets/img/add.png" class="position-absolute end-0" id="el-add-2">
+        <img src="assets/img/add.png" class="position-absolute start-0 bottom-0" id="el-add-3">
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center my-lg-5 my-3">
+            <h3>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+            </h3>
+          </div>
+          <div class="col-lg-4 d-flex flex-column align-items-center mb-lg-5 my-3">
+            <img src="assets/img/Icon.svg">
+            <h6 class="my-lg-4 my-3">لورم ایپسوم متن ساختگی</h6>
+            <p class="opacity-75 w-75 text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-lg-4 d-flex flex-column align-items-center mb-lg-5 my-3">
+            <img src="assets/img/Icon (1).svg">
+            <h6 class="my-lg-4 my-3">لورم ایپسوم متن ساختگی</h6>
+            <p class="opacity-75 w-75 text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-lg-4 d-flex flex-column align-items-center mb-lg-5 my-3">
+            <img src="assets/img/Icon (2).svg">
+            <h6 class="my-lg-4 my-3">لورم ایپسوم متن ساختگی</h6>
+            <p class="opacity-75 w-75 text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-lg-4 d-flex flex-column align-items-center mb-lg-5 my-3">
+            <img src="assets/img/Icon (3).svg">
+            <h6 class="my-lg-4 my-3">لورم ایپسوم متن ساختگی</h6>
+            <p class="opacity-75 w-75 text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-lg-4 d-flex flex-column align-items-center mb-lg-5 my-3">
+            <img src="assets/img/Icon (4).svg">
+            <h6 class="my-lg-4 my-3">لورم ایپسوم متن ساختگی</h6>
+            <p class="opacity-75 w-75 text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-lg-4 d-flex flex-column align-items-center mb-lg-5 my-3">
+            <img src="assets/img/Icon (5).svg">
+            <h6 class="my-lg-4 my-3">لورم ایپسوم متن ساختگی</h6>
+            <p class="opacity-75 w-75 text-center">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <img src="assets/img/Rectangle-3.png" class="position-absolute start-0 z-n1" id="shadow-3">
+    <img src="assets/img/Rectangle-4.png" class="position-absolute top-0 end-0 z-n1 img-fluid" id="shadow-4">
+
+    <img src="assets/img/Rectangle-5.png" class="position-absolute end-0" id="shadow-5">
+
+    <!-- start section slide -->
+    <section id="slide" class="container-fluid position-relative text-light my-lg-5 my-4">
+      <img src="assets/img/circle.png" class="position-absolute top-0" id="el-circle-2">
+      <div class="container">
+        <div class="row">
+          <h3 class="col-lg-12 my-lg-5">
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم
+          </h3>
+
+          <div id="main-slide" class="my-5">
+            <div id="MySlide" class="carousel slide col-lg-12 position-relative">
+              <div class="carousel-inner mb-5">
+                <div class="carousel-item active">
+                  <img src="assets/img/image 30.jpg" class="d-block w-auto rounded-4 img-fluid mx-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/image 28.jpg" class="d-block w-auto rounded-4 img-fluid mx-auto" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/image 29.jpg" class="d-block w-auto rounded-4 img-fluid mx-auto" alt="...">
+                </div>
+              </div>
+              <div class="carousel-indicators position-relative">
+                <button type="button" data-bs-target="#MySlide" data-bs-slide-to="0" class="active" aria-current="true"
+                  aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#MySlide" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#MySlide" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#MySlide" data-bs-slide="prev">
+                <i class="fa-solid fa-angle-left display-6" class="carousel-control-prev-icon" aria-hidden="true"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#MySlide" data-bs-slide="next">
+                <i class="fa-solid fa-angle-right display-6" class="carousel-control-next-icon" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>
+
+<?php include("footer.php"); ?>
