@@ -1,0 +1,10 @@
+#RewriteEngin on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.php -f
+#RewriteRule ^(.*)$ $1.php
+
+
+# RewriteEngin on
+# RewriteRule ^(.+)\.php$ /$1 [R,L]
+# RewriteCond %{REQUEST_FILENAME}.php -f
+# RewriteRule ^(.*?)/?$ /$1.php [NC,END]
