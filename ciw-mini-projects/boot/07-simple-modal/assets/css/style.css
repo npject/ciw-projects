@@ -28,4 +28,11 @@ h1,h2,h3,h4,h5,h6{
 body{
     font-family: 'b-yekan' !important;
 }
-
+.form-floating label{
+    left: initial !important;
+    right: .5rem !important;
+    direction: rtl;
+}
+.form-floating .form-control:focus~label{
+    transform: scale(.85) translateY(-1.5rem) translateX(.15rem) !important;
+}
