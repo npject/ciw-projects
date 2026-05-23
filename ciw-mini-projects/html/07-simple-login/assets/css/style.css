@@ -19,4 +19,85 @@ body{
     direction: rtl;
     font-family: 'b-yekan';
 }
-
+.container{
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+.log-in{
+    width: 100%;
+    height: 100vh;
+}
+.log-in .background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    z-index: -1;
+}
+.log-in #background-log-in-1{
+    width: 50%;
+    height: 100vh;
+    background-color: #9382af;
+}
+.log-in #background-log-in-2{
+    width: 50%;
+    height: 100vh;
+    background: url(../img/447815234_133162.jpg) no-repeat left center;
+    background-size: cover;
+}
+.log-in .box-log-in{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-in .box-log-in-2{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.log-in .box-log-in-2 h1{
+    margin-bottom: 10px;
+}
+.log-in .box-log-in-2 input{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 30px;
+    background-color: #9382af;
+    font-size: 1rem;
+    font-family: 'b-yekan';
+    color: #fff;
+}
+.log-in .box-log-in-2 .input-different{
+    background-color: #d6beff87;
+    padding: 0 30px;
+    color: #000;
+}
+.log-in .box-log-in-2 .box-remember-me{
+    width: 300px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.log-in .box-log-in-2 .box-remember-me div{
+    display: flex;
+    align-items: center;
+}
+.log-in .box-log-in-2 .box-remember-me .checkbox{
+    width: 16px;
+    height: 16px;
+    margin-bottom: 0;
+}
+.log-in .box-log-in-2 .box-remember-me a{
+    text-decoration: none;
+    color: #9382af;
+}
