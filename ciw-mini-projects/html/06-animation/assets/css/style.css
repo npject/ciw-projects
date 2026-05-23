@@ -1,0 +1,18 @@
+:root{
+    --color-blue: rgb(89, 89, 255);
+}
+@font-face{
+    src: url(../fonts/iranyekanwebregular.eot) format('eot'),
+    url(../fonts/iranyekanwebregular.ttf) format('ttf'),
+    url(../fonts/iranyekanwebregular.woff) format('woff');
+    font-family: 'b-yekan';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+    font-family: 'b-yekan';
+}
