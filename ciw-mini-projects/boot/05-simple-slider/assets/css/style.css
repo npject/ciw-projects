@@ -28,4 +28,8 @@ h1,h2,h3,h4,h5,h6{
 body{
     font-family: 'b-yekan';
 }
-
+#project-0 .carousel-indicators img{
+    width: 70px !important;
+    height: 70px !important;
+    box-sizing: border-box !important;
+}
