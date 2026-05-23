@@ -20,3 +20,68 @@ body{
     font-family: 'b-yekan' !important;
     direction: rtl;
 }
+h1{
+    color: #2a76cc !important;
+    background: -webkit-linear-gradient(#c7e1fd, #2a76cc);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0px 2px 0px #2a76cc);
+    animation: shadow-h1 ease-in .8s 1;
+}
+.fa-bootstrap{
+    color: #6d11f2;
+}
+.fa-html5{
+    color: #e4522b;
+}
+.fa-css3{
+    color: #0874bc;
+}
+.fa-font-awesome-logo-full{
+    color: #3790df;
+}
+td{
+    vertical-align: middle;
+}
+td,
+td .btn{
+    font-size: 14px;
+    white-space: nowrap;
+}
+i.fa-brands{
+    font-size: 16px;
+}
+.btn{
+    color: #d76f6f !important;
+}
+.btn:active{
+    color: #8f0707 !important;
+}
+table tr:nth-child(2n+1) td:first-child{
+    color: #2a76cc;
+}
+table tr:nth-child(2n) td:first-child{
+    color: #6f9fd7;
+}
+/*
+color: #30ba19;
+color: #30ba19;
+#30ba19
+#6f9fd7
+#00a271
+00704f
+00a271
+*/
+
+
+
+@keyframes shadow-h1 {
+    95%{
+        background-image: linear-gradient(to right, #2a76cc 30%, #c7e1fd 51%, #2a76cc 70%);
+        background-size: 200% auto;
+    }
+    100%{
+        background-position: right center;
+    }
+}
