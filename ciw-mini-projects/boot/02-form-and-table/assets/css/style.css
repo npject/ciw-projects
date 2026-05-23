@@ -29,4 +29,30 @@ body{
     direction: rtl;
     font-family: 'b-yekan' !important;
 }
+.container .main-row{
+    margin-top: 30px;
+}
+table th,
+table td{
+    text-align: center;
+}
+form .row-form .row-date{
+    justify-content: space-between;
+}
+form .submit{
+    margin-top: 10px;
+}
 
+
+
+@media (max-width:992px){
+    .main-row .main-form{
+        margin-top: 30px;
+    }
+}
+@media (min-width:320px) and (max-width:480px){
+    
+}
+@media (min-width:481px) and (max-width:760px){
+    
+}
