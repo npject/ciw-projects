@@ -28,4 +28,26 @@ h1,h2,h3,h4,h5,h6{
 body{
     font-family: 'b-yekan' !important;
 }
-
+.container{
+    margin-top: 40px
+}
+.container form .col-lg-12{
+    margin-bottom: 15px;
+}
+label{
+    direction: rtl;
+}
+.form-floating label{
+    left: initial !important;
+    right: .5rem !important;
+}
+.form-floating .form-control:focus~label{
+    transform: scale(.85) translateY(-1.5rem) translateX(.15rem) !important;
+}
+.form-control:focus{
+    border-color: rgb(32, 201, 151) !important;
+    box-shadow: 0 0 0 0.25rem rgb(32 201 151 / 25%) !important;
+}
+#file-upload{
+    display: none;
+}
