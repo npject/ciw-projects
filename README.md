@@ -1,13 +1,16 @@
-# CIW Projects
+# 🌐 CIW Projects
 
 
-## Description 
+## 📝 Description 
 
 A collection of small projects created while learning web development.
 Each project focuses on practicing a specific concept or technology.
 
 
-## Projects 
+## 🚀 Projects 
+
+- **ciw-mini-projects**
+  A collection of mini-projects, created to learn and practice HTML, CSS (pure/Bootstrap 5).
 
 - **project-html**
   Simple Html and CSS practice project
@@ -37,7 +40,7 @@ Each project focuses on practicing a specific concept or technology.
   PHP user system (auth, profile, products)
 
 
-## Technologies
+## 🛠 Technologies
 
 - HTML
 - CSS
@@ -50,6 +53,11 @@ Each project focuses on practicing a specific concept or technology.
 - PHP Sessions
 
 
-## Notes
+## 💡 Notes
 
 This repository contains practice projects built during my learning journey.
+
+
+## ✍ Author
+
+NPJect
