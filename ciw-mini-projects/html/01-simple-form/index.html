@@ -6,6 +6,88 @@
     <title>student registration form</title>
 </head>
 <body>
+  <form>
+    <table>
+     <tbody>
+       <tr>
+         <td><label>name:</label></td>
+         <td><input type="text" name="name.." placeholder="enter full name"></input></td>
+       </tr>
+       <tr>
+         <td>fathers name:</td>
+         <td><input type="text" name="f name"></input></td>
+       </tr> 
+       <tr>
+         <td><label>mothers name:</label></td>
+         <td><input type="text" name="m name"></input></td>
+       </tr> 
+       <tr>
+         <td><label>phone number:</label></td>
+         <td><input type="number" name="phone number"></input></td>
+       </tr> 
+       <tr>
+         <td><label>email:</label></td>
+         <td><input type="email" name="email.." placeholder="sample@example.com"></input></td>
+       </tr> 
+       <tr>
+         <td><label>gender:</label></td>
+         <td>
+           <input type="radio" name="gender" id="male" value="male"></input>
+           <label for="male">male</label>
+           <input type="radio" name="gender" id="female" value="female"></input>
+           <label for="female">female</label>
+           <input type="radio" name="gender" id="other" value="other"></input>
+           <label for="other">other</label>
+          </td>
+       </tr> 
+       <tr>
+          <td><label>date of birth:</label></td>
+          <td><input type="number" name="date" value="day"></input>-<input type="number" name="date" value="month"></input>-<input type="number" name="date" value="year"></input></td>
+      </tr> 
+      <tr>
+        <td><label>address:</label></td>
+        <td><input type="text" placeholder="street-house-road" name="address"></input></td>
+      </tr> 
+      <tr>
+        <td><label></label></td>
+        <td><input></input></td>
+      </tr> 
+      <tr>
+        <td><label>department:</label></td>
+        <td>
+         <input type="radio" name="department" value="CSE" id="CSE"></input>
+         <label for="CSE">CSE</label>
+         <input type="radio" name="department" value="EEE" id="EEE"></input>
+         <label>EEE</label>
+         <input type="radio" name="department" value="BBA" id="BBA"></input>
+         <label for="BBA">BBA</label>
+        </td>
+      <tr>
+        <td><label>Course:</label></td>
+        <td>
+         <input type="checkbox" name="Course" value="C" id="C"></input>
+         <lable for="C">C</lable>
+         <input type="checkbox" name="Course" value="C++" id="C++"></input>
+         <lable for="C++">C++</lable>
+         <input type="checkbox" name="Course" value="java" id="java"></input>
+         <lable for="java">java</lable>
+         <input type="checkbox" name="Course" value="AI" id="Ai"></input>
+         <lable for="Ai">Ai</lable>
+         <input type="checkbox" name="Course" value="machine learning" id="machine learning"></input>
+         <lable for="machine learning">machine learning</lable>
+         <input type="checkbox" name="Course" value="robotics" id="robotics"></input>
+         <lable for="robotics">robotics</lable>
+        </td>
+      </tr> 
+      <tr>
+        <td><label>Photo:</label></td>
+        <td><input type="file"></input></td>
+       </tr>
+     </tbody>
+    </table>
+    <input type="submit" value="submit"></input>
+  </form>
+  
     
 </body>
 </html>
