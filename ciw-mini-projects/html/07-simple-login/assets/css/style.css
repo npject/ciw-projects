@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    src: url(../fonts/iranyekanwebregular.eot) format('eot'),
+    url(../fonts/iranyekanwebregular.ttf) format('ttf'),
+    url(../fonts/iranyekanwebregular.woff) format('woff');
+    font-family: 'b-yekan';
+}
+@font-face{
+    src: url(../fonts/iranyekanwebbold.eot) format('eot'),
+    url(../fonts/iranyekanwebbold.ttf) format('ttf'),
+    url(../fonts/iranyekanwebbold.woff) format('woff');
+    font-family: 'b-yekan-bold';
+}
+body{
+    direction: rtl;
+    font-family: 'b-yekan';
+}
+
