@@ -29,4 +29,21 @@ body{
     direction: rtl;
     font-family: 'b-yekan';
 }
-
+.container .row{
+    height: auto;
+}
+.container .row div{
+    height: 50px;
+}
+.row div:nth-child(2n+1){
+    background-color: aqua;
+}
+.row div:nth-child(2n){
+    background-color: #006cff;
+}
+.container-fluid{
+    margin-top: 30px;
+}
+.container-fluid .row div{
+    height: 50px;
+}
