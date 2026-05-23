@@ -1,0 +1,44 @@
+body{
+      margin: 0;
+      padding: 0;              
+}
+header{
+      width: 100%;
+      height: 74px;
+}
+nav{
+      background-color: rgb(163, 124, 201);
+      float: right;
+      width: 100%;
+      height: 60px;
+}
+header nav ul li{
+      float: right;
+      list-style: none;
+}
+nav ul li a{
+      color:rgb(55, 11, 97);
+      text-decoration: none;
+      padding: 27px;
+}
+nav ul li a:hover{
+      background-color: rgb(109, 41, 173);
+      color:rgb(207, 194, 228) ;
+}
+.container{
+      width: 1024px;
+      height: auto;
+      margin: 35px auto;
+}
+.container .box{
+      width: 300px;
+      height: 370px;
+      float: right;
+      margin-right: 10px;
+      text-align: center;
+      border: 1px solid #ccc;
+}
+.box img{
+      width: 200px;
+      height: 220px;
+}
