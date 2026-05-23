@@ -10,7 +10,36 @@
 </head>
 
 <body>
-    
+    <div class="container">
+        <button class="btn btn-primary mt-5 float-end" data-bs-toggle="modal" data-bs-target="#mymodal">
+            ورود کاربر
+        </button>
+    </div>
+
+    <!-- modal -->
+    <div class="modal fade" id="mymodal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header d-flex justify-content-between">
+                    <button class="btn-close float-start m-0" data-bs-toggle="modal"></button>
+                    <h3 class="float-end mb-0">ورود کاربر</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="form-floating mb-4">
+                        <input class="form-control text-end" id="username" placeholder="username" type="text" name="username">
+                        <label class="form-label h6" for="username">نام کاربری :</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input class="form-control text-end" id="password" placeholder="password" type="text" name="password">
+                        <label class="form-label h6" for="password">رمز عبور :</label>
+                    </div>
+                </div>
+                <div class="modal-footer border-0">
+                    <input class="btn btn-outline-primary" type="submit" value="ورود"></input>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
