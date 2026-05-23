@@ -1,0 +1,31 @@
+:root{
+    --color-blue: #006cff;
+    --color-text: #4a4a4a;
+}
+@font-face{
+    src: url(../fonts/iranyekanwebregular.eot) format('eot'),
+    url(../fonts/iranyekanwebregular.ttf) format('ttf'),
+    url(../fonts/iranyekanwebregular.woff) format('woff');
+    font-family: 'b-yekan';
+}
+@font-face{
+    src: url(../fonts/iranyekanwebbold.eot) format('eot'),
+    url(../fonts/iranyekanwebbold.ttf) format('ttf'),
+    url(../fonts/iranyekanwebbold.woff) format('woff');
+    font-family: 'b-yekan-bold';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'b-yekan-bold';
+}
+.text-bold{
+    font-family: 'b-yekan-bold';
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'b-yekan';
+}
+
