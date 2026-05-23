@@ -25,4 +25,40 @@ body{
     font-family: 'b-yekan' !important;
     direction: rtl;
 }
+#nav-top{
+    background-color: var(--color-green-hover);
+}
+nav .dropdown-menu{
+    background-color: var(--color-green-btn);
+}
+nav .dropdown-menu a:hover,
+nav .dropdown-menu a:active,
+nav .dropdown-menu a:focus{
+    background-color: var(--color-green-hover) !important;
+}
+#main-project{
+    background-color: var(--color-green-bg);
+}
+.btn-custom{
+    background-color: var(--color-green-btn);
+}
+.btn-custom:hover{
+    background-color: var(--color-green-hover) !important;
+}
+#project-2{
+    transform: translateY(50%);
+}
+#project-2 .col-md-3 #color-pj-2{
+    background-color: #008374;
+}
+.offcanvas{
+    background-color: var(--color-green-hover) !important;
+}
 
+
+
+@media (max-width:720px) {
+    #project-2{
+        transform: none;
+    }
+}
